@@ -1,0 +1,67 @@
+CAJERO
+-Codigo
+-Nombre
+-Turno
+-DPI
+-Direccion
+-Sexo
+-Password
+
+
+TRANSACCION
+-Codigo
+-CUENTA_BANCARIA
+-Fecha
+-Hora
+-Tipo (credito o debito)
+-Monto
+-Cajero
+
+
+CLIENTE
+-Codigo
+-Nombre
+-DPI(numero)
+-Nacimiento
+-Direccion
+-Sexo
+-CUENTA_BANCARIA
+-Password
+-DPI (PDF)
+
+
+GERENTE
+-COdigo
+-Nombre
+-Turno
+-DPI
+-Direccion
+-Sexo
+-Password
+
+
+TURNO
+-Codigo
+-Horario
+-AM/PM
+
+CUENTA_BANCARIA
+-Codigo
+-CreacionFecha
+-Credito
+-Cliente
+
+CuentasAsociadas
+-Codigo
+-CUENTA_BANCARIA1
+-CUENTA_BANCARIA2
+
+Historial
+RETIRAR CON DPI
+Para cada cambio que se realice se debe guardar un historial.
+
+
+
+54 las 3 uniones
+
+474 3 cables de 6 pies y 3 cables de 35 pies y 3 uniones
